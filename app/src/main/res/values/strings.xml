@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ELSA</string>
+    <string name="text_email_address">Email address</string>
+    <string name="text_password">Password</string>
+    <string name="text_retype_password">Retype password</string>
+    <string name="text_user_type">User type</string>
+    <string name="text_business_name">Business name</string>
+    <string name="text_business_type">Business Type</string>
+    <string name="text_business_address">Business address</string>
+    <string name="text_description">Brief description</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_customer_address">Customer address</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_age">Age</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_elsa">ELSA</string>
+    <string name="text_elsa_description">Entertainment Location Searcher App</string>
+    <string name="text_log_in">Log In</string>
+    <string name="text_facebook_login">Log in with Facebook</string>
+    <string name="text_google_login">Log in with Google</string>
+    <string name="text_drawer_open">Drawer Open</string>
+    <string name="text_drawer_close">Drawer Close</string>
+    <string name="title_activity_home_feed">HomeFeed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
