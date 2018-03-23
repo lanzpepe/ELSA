@@ -21,8 +21,8 @@
     <string name="text_google_login">Log in with Google</string>
     <string name="text_drawer_open">Drawer Open</string>
     <string name="text_drawer_close">Drawer Close</string>
-    <string name="title_activity_home_feed">HomeFeed</string>
-
+    <string name="title_activity_home_feed">Home Page</string>
+    <string name="text_separator">&#8226;</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

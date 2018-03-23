@@ -14,7 +14,7 @@ import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.it321.finals.elsa.R
-import com.it321.finals.elsa.controllers.HomeFeed
+import com.it321.finals.elsa.controllers.HomeFeedActivity
 import com.it321.finals.elsa.controllers.MainActivity
 import com.it321.finals.elsa.models.User
 import kotlinx.android.synthetic.main.fragment_login.*
@@ -64,7 +64,7 @@ class LoginFragment : Fragment(), View.OnClickListener, OnCompleteListener<AuthR
     override fun onComplete(task: Task<AuthResult>) {
         if (task.isSuccessful) {
             (activity as MainActivity).toast("Successfully logged in.")
-            context.startActivity(Intent(context, HomeFeed::class.java))
+            context.startActivity(Intent(context, HomeFeedActivity::class.java))
         }
         else
             (activity as MainActivity).toast("Username and/or password is incorrect.")

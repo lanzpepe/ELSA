@@ -117,6 +117,4 @@ class SignUpFragment : Fragment(), OnCompleteListener<AuthResult>, AdapterView.O
     private fun getArrayAdapter(strings: Array<String>) : ArrayAdapter<String> =
             ArrayAdapter(context, android.R.layout.simple_spinner_dropdown_item, strings)
 
-
-
 }// Required empty public constructor
